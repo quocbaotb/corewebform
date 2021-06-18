@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Databases>
+  <Database>
+    <Language>lang=vi</Language>
+    <ServerName>192.168.99.211</ServerName>
+    <UserName>sa</UserName>
+    <Password>168149</Password>
+    <DatabaseName>eBOSS_TaiYue</DatabaseName>
+  </Database>
+</Databases>

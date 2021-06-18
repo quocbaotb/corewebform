@@ -1,0 +1,16 @@
+{
+    "name": "vendor/core",
+    "description": "fdfhdsklf",
+    "type": "library",
+    "license": "dsads",
+    "authors": [
+        {
+            "name": "Quoc Bao",
+            "email": "quocbao@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "eboss/eboss": "dev-master"
+    }
+}

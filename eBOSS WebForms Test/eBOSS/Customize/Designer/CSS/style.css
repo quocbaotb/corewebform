@@ -1,0 +1,486 @@
+* {
+    font-family: Arial;
+    font-size: 14px;
+}
+
+form {
+    margin-block-end: 0px;
+}
+
+input {
+    width: 100px;
+    height: 30px;
+    float: right;
+}
+
+input:focus {
+    background: #FFFFCC;
+}
+
+select {
+    width: 250px;
+    height: 30px;
+    text-align: center;
+    float: right;
+}
+
+option {
+    text-align: center;
+}
+
+label {
+    width: 100px;
+    height: 20px;
+    float: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 5px;
+}
+
+/*label:hover{
+    overflow: visible;
+    white-space: pre-line;
+    width: 100px;
+}*/
+h2 {
+    text-align: center;
+    font-size: 16px;
+    margin: 0px;
+    padding-bottom: 10px;
+}
+
+iframe {
+    border: none;
+}
+
+div.main {
+    margin: 5% auto;
+    min-width: 10px;
+    min-height: 10%;
+    display: table;
+}
+
+div.full {
+    float: left;
+    width: 900px;
+    min-height: 1%;
+    border-style: solid;
+    border-width: 0.5px;
+    border-radius: 10px;
+    border-color: #E6E6E6;
+}
+
+div.fullright {
+    margin-left: 5px;
+    float: right;
+    width: 300px;
+    min-height: 1%;
+}
+
+div.fullfooter {
+    clear: both;
+}
+
+
+.column {
+    float: left;
+    margin: 5px;
+}
+
+.columnData {
+    float: right;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row {
+    margin: 10px 20px 10px 20px;
+}
+
+.left {
+    width: 195px;
+    float: left;
+    border: 1px;
+    border-color: #E6E6E6;
+}
+
+.mid {
+    width: 475px;
+    height: 100px;
+    float: left;
+}
+
+.right {
+    width: 220px;
+    float: right;
+}
+
+.footer {
+    clear: both;
+    border: none;
+}
+
+.footerframe {
+    clear: both;
+    height: 480px;
+    border: none;
+}
+
+.menuheader {
+    margin: 0px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-width: 0.5px;
+    height: 40px;
+    border-color: #E6E6E6;
+}
+
+#menu ul {
+    list-style-type: none;
+    margin: 0px;
+    padding-left: 10px;
+}
+
+#menu li {
+    display: inline-block;
+    width: 25%;
+    height: 40px;
+    line-height: 40px;
+    margin-left: -5px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    border-left-style: solid;
+    border-style: solid;
+    border-color: #E6E6E6;
+    text-align: center;
+    border-width: 0.2px;
+    margin-left: 0px;
+}
+
+#menu a:hover {
+    background: #F1F1F1;
+    color: #333;
+}
+
+#menu a:active {
+    background: gray;
+}
+
+div.container {
+    min-width: 840px;
+    margin: auto;
+}
+
+/* định dạng thẻ div chưa các button tab */
+div.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* định dạng các button tab */
+div.tab button {
+    background-color: inherit;
+    float: left;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: #E6E6E6;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    width: 25%;
+}
+
+/* đổi màu khi một button tab được hover */
+div.tab button:hover {
+    background-color: #ddd;
+}
+
+/* đổi màu nền cho tab đang được hiển thị nội dung */
+div.tab button.active {
+    background-color: #ccc;
+}
+
+/* định dạng nội dung hiển thị */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+}
+
+input {
+    float: left;
+    size: 15px;
+    height: 25px;
+    width: 200px;
+}
+
+div.Tabfull {
+    width: 878px;
+    height: 300px;
+    margin-left: 0px;
+    display: table;
+}
+
+.Tabcolumn {
+    float: left;
+    width: 14.5%;
+    margin-left: 5px;
+}
+
+.Tabrow:after {
+    content: "";
+    display: table;
+    clear: both;
+    width: 100%;
+}
+
+.Tabrow {
+    margin: 10px 10px 10px 10px;
+}
+
+.Tableft {
+    margin-left: 0px;
+    float: left;
+    width: 25%;
+}
+
+.Tabmid {
+    float: left;
+    width: 65%;
+    text-align: center;
+}
+
+.Tabright {
+    margin-top: 95px;
+    float: right;
+    width: 10%;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+textarea {
+    width: 320px;
+    height: 50px;
+"
+}
+
+.ui-autocomplete {
+    max-height: 100px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+fieldset {
+    padding: 0px;
+    margin: 0px;
+    border-style: solid;
+    border-width: 0.5px;
+
+    border-color: #E6E6E6;
+
+}
+
+table{
+    border: #dddddd;
+    border-bottom-style: solid;
+}
+
+td{
+    text-align: right;
+}
+
+
+/*Chia khu vực trong Quality*/
+#quality .main{
+    margin-top: 0;
+}
+
+#quality .top-quality-left{
+    float: left;
+    width: 68%;
+    min-height: 250px;
+    border-style: solid;
+
+}
+
+#quality .top-quality-right{
+    float: right;
+    width: 30%;
+    min-height: 250px;
+    border-style: solid;
+
+}
+
+#quality .mid-quality-left{
+    float: left;
+    width: 30%;
+    min-height: 300px;
+    border-style: solid;
+}
+
+#quality .mid-quality-right{
+    float: right;
+    width: 68%;
+    min-height: 300px;
+    border-style: solid;
+}
+
+#quality .footer-quality{
+    width: 100%;
+    min-height: 100px;
+    border-style: solid;
+}
+
+#quality input{
+    width: 250px;
+}
+
+#quality .top-quality-right input{
+    width: 110px;
+}
+
+#quality .mid-quality-left input{
+    width: 118px;
+}
+
+#quality .input-minion input{
+    width: 40px;
+}
+
+#quality .Tabcolumn{
+    width: 15%;
+
+}
+
+#quality .Tabcolumn input{
+    width: 100%;
+}
+
+#quality .quality-left{
+    float: left;
+    width: 73%;
+}
+
+#quality .top-quality-left .quality-left{
+    width: 68%;
+}
+
+#quality .top-quality-left .quality-left input{
+    width: 100px;
+}
+
+#quality .quality-left input{
+    width: 70px;
+    margin-left: 5px;
+}
+
+#quality .quality-left select{
+    width: 252px;
+    height: 25px;
+/*    height: 30px;*/
+}
+
+
+#quality .top-quality-left .quality-left .up-size input{
+    width: 100px;
+}
+
+#quality .top-quality-left .quality-right .up-size input{
+    width: 140px;
+}
+
+#quality table{
+    border: none;
+}
+
+#quality .top-quality-left .quality-left .up-size-1 input{
+    width: 150px;
+}
+
+#quality .top-quality-left .quality-left .up-size-2 input{
+    width: 240px;
+}
+
+#quality .top-quality-left .quality-left .down-size input{
+    width: 80px;
+}
+
+#quality .top-quality-left .quality-left .down-size-1 label{
+    width: 60px;
+}
+
+#quality .top-quality-left .quality-left .down-size-1 input{
+    width: 40px;
+}
+
+
+#quality .quality-right{
+    float: right;
+    width: 27%;
+}
+
+#quality .top-quality-left .quality-right{
+    width: 32%;
+}
+
+#quality .checkbox-input input{
+    width: 15px;
+    margin-top: -1px;
+}
+
+#quality .top-quality-left .quality-left .checkbox-input input{
+    width: 15px;
+}
+
+#quality .quality-right input{
+    width: 70px;
+    margin-left: 2px;
+}
+
+#quality th{
+    min-width: 60px;
+}
+
+#quality td{
+    text-align: left;
+}
+
+#quality .footer-quality .Tabcolumn{
+    margin-left: 5px;
+}
+
+#quality .footer-quality .Tabcolumn .Tabrow{
+    margin: 10px 0 0 0;
+}
+
+#quality .footer-quality .Tabcolumn .Tabrow input{
+    width: 65px;
+}
+
+#quality .footer-quality .Tabcolumn .Tabrow label{
+    width: 60px;
+}
+
+#quality .mid-quality-left select{
+    width: 117px;
+    height: 25px;
+}
+
+#quality .mid-quality-right select{
+    float: left;
+    width: 250px;
+    height: 25px;
+}

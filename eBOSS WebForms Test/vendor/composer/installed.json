@@ -1,0 +1,44 @@
+{
+    "packages": [
+        {
+            "name": "eboss/eboss",
+            "version": "dev-master",
+            "version_normalized": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wilnguyen1998/corephp.git",
+                "reference": "d09259ea3c9efe9c0619ecbdc01c55934e486e11"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wilnguyen1998/corephp/zipball/d09259ea3c9efe9c0619ecbdc01c55934e486e11",
+                "reference": "d09259ea3c9efe9c0619ecbdc01c55934e486e11",
+                "shasum": ""
+            },
+            "time": "2021-06-10T02:03:35+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "psr-4": {
+                    "eBOSS\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "wilnguyen1998",
+                    "email": "wilnguyen1998@gmail.com"
+                }
+            ],
+            "description": "eBOSS Core",
+            "support": {
+                "issues": "https://github.com/wilnguyen1998/corephp/issues",
+                "source": "https://github.com/wilnguyen1998/corephp/tree/master"
+            },
+            "install-path": "../eboss/eboss"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
